@@ -1,0 +1,38 @@
+#game{ 
+    width: 800px;
+    height: 450px;
+    background-image: url(../images/add-background.jpg);
+    background-size: 950px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#question{
+    color: white;
+    padding: 15px 32px;
+    font-size: 60px;
+    margin: 4px 2px;
+    margin-top: 100px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    background-color: darkgrey;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin: 4px 2px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+button:hover{ 
+    background-color: rgb(78, 78, 78);
+}  
+button:active{ 
+    transition: opacity 0.15s;
+    opacity: 0.7;
+}  
